@@ -2,7 +2,7 @@
 Tags: wordpress, category, wordpress category image , custom category image
 Requires at least: 3.5
 Tested up to: 3.6 beta 3
-Version: 1.0
+Stable tag: 1.0
 
 The WPCustom Category Image plugin allow users to upload their very own custom category (taxonomy) image to obtain a much more personalized look and feel.
 
