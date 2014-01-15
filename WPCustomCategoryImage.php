@@ -25,7 +25,7 @@ class WPCustomCategoryImage{
 	// initialize wp custom category image
 	public static function initialize(){
 
-		$CategoryImage = new static;
+		$CategoryImage = new static();
 		$CategoryImage->taxonomies =  get_taxonomies();
 
 		add_action('admin_init'            , array($CategoryImage,'admin_init'));
