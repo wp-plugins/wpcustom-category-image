@@ -17,7 +17,7 @@ Requires WordPress 3.0 and PHP 5.3
 
 If you have suggestions, feel free to email me at stuart.eduardo@gmail.com.
 
-Want regular updates? Follow me on Twitter http://twitter.com/eduardodstuart
+Want regular updates? Follow me on Twitter http://twitter.com/eduardostuart
 
 = Usage =
 
