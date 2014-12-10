@@ -10,6 +10,12 @@
 	var $mAttachment   = $("#categoryimage_attachment");
 
 
+	var clearAttachment = function(){
+		$mAttachment.val('');
+		$mImageHolder.html('');
+	};
+
+
 	CategoryImage = $.extend(CategoryImage,{
 
 		options:{
@@ -32,16 +38,16 @@
 
 			$("#categoryimage_image").load(function(){
 
-				var $el = $(this); 
-				
-				var width  = $el.width(); 
+				var $el = $(this);
+
+				var width  = $el.width();
 				var height = $el.height();
 				var ratio  = 0;
 
 				var maxWidth  = CategoryImage.options.holder_max_width;
 
 				if(width > maxWidth){
-					ratio = maxWidth / width; 
+					ratio = maxWidth / width;
 
 					$el.width(maxWidth);
 					$el.height(height * ratio);
@@ -83,10 +89,10 @@
 
 				var _mediaParams = {
 				    title   : CategoryImage.label.title,
-				    button  : { 
+				    button  : {
 						text :  CategoryImage.label.button
 				    },
-				    library : { 
+				    library : {
 						type : 'image'
 				    },
 				    multiple : false

@@ -2,32 +2,28 @@
 Tags: wordpress, category, wordpress category image , custom category image
 Requires at least: 3.5
 Tested up to: 3.6 beta 3
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 
-The WPCustom Category Image plugin allow users to upload their very own custom category image.
+The WPCustom Category Image plugin allow users to upload their very own custom category image
 
 == Description ==
 
-"Customization is a good thing."
+The WPCustom Category Image plugin allow users to upload their very own custom category (taxonomy) image to obtain a much more personalized look and feel.
 
-The **WPCustom Category Image** plugin allow users to upload their very own custom category (taxonomy) image to obtain a much more personalized look and feel.
+
+
+Requires WordPress 3.0 and PHP 5.3
+
+
+If you have suggestions, feel free to email me at stuart.eduardo@gmail.com.
+
+Want regular updates? Follow me on Twitter http://twitter.com/eduardodstuart
 
 = Usage =
 
-Go to *Wp-Admin -> Posts(or post type) -> Categories (or taxonomy)* to see Custom Category Image options
+Go to `Wp-Admin -> Posts(or post type) -> Categories (or taxonomy)` to see Custom Category Image options
 
-If you want to add the images to your theme:
-
-* category_image($params,$echo)
-* category_image_src($params,$echo)
-
-
-*$params (array)* (optional)
-
-* term_id (optional)
-* size    (array or defined size (add_image_size))
-
-*$echo (boolean)* (optional) - default- false
+Examples? How to use? [https://gist.github.com/eduardostuart/b88d6845a1afb78c296c](https://gist.github.com/eduardostuart/b88d6845a1afb78c296c)
 
 
 == Installation ==
@@ -46,4 +42,5 @@ You can either install it automatically from the WordPress admin, or do it manua
 
 == Changelog ==
 
+v1.1.0 Bug fixes; Display current image (admin);
 v1.0.1 Bug fixes
