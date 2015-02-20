@@ -7,7 +7,7 @@ class WPCustomCategoryImage {
 	// array with all taxonomies
 	protected $taxonomies;
 
-	public static function install(){
+	public static function activate(){
 
 		if( ! ( WP_VERSION >= WP_MIN_VERSION ) )
 		{
@@ -197,7 +197,7 @@ class WPCustomCategoryImage {
 		);
 
 
-		if( $this->has_image($taxonomy->term_id) )
+		if( isset($taxonomy->term_id) && $this->has_image($taxonomy->term_id) )
 		{
 
 			$image = self::get_category_image(
